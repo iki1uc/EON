@@ -1,28 +1,39 @@
-# ANKER – Stabilisationsachse · iki1uc
+# EON · Stabilisierungsachse
 
-## Zweck
-ANKER ist die Stabilisationsachse des iki1uc‑Systems.
-Es hält die Achsen IQ, QI, EVO, UPD, UPG, BIOS und CALC im korrekten Verhältnis.
+## Modul
+Typ: Achse  
+Modus: Stabilisation  
+Form: RAW  
 
-## Struktur
-- NAME: ANKER
-- ID: A01
-- Station: S01
-- Dimension: D4
-- Modus: erabel (neutral, operation möglich)
+## GEO
+Zustand: GEO-BEREIT  
+Sweep: 360°  
+Modus: linear  
 
-## Rolle
-ANKER stabilisiert, ohne selbst aktiv zu berechnen oder zu steuern.
-Es ist die neutrale Achse zwischen AXI, 6d und API.
+## Achse
+x  
+y  
+z  
+rot  
+stabil: aktiv  
 
-## Bindungen
-- AXI
-- 6d
-- 360
-- 100
-- 213 (REAL)
-- API
+## Station
+Name: EON  
+Zustand: aktiv  
+Real: gesetzt  
+
+## Pipeline
+1: Stabil  
+2: Linear  
+3: Erweiterbar  
+
+## Vector
+Quelle: systemisch  
+Modus: stabil  
+
+## Radar
+Zustand: aktiv  
+Sweep: 360°  
 
 ## Status
-STATE = STABIL  
-READY = 100%
+Online
